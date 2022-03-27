@@ -1,2 +1,7 @@
-test = {1:"THis is a fukin qutions"}
-optijons = {1:[1,2,3,4]}
+import csv
+
+with open("text.csv","w") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Qno","Question Text","Option 1","Option 2","Option 3","Option 4","Error if any","Answer Key","Solution"])
+    
+    
