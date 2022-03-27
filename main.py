@@ -34,6 +34,7 @@ def Questions():
                     isOptionStarted = True
                     continue
                 if "@@@" in QUESTION_FILE_CONTENT[i]:
+                    isOptionStarted =True
                     continue
             if isOptionStarted == True:
                 
