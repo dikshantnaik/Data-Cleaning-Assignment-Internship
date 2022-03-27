@@ -10,6 +10,7 @@ def Questions():
     NextQuetion = True
     isStartOfQuestion = True
     isOptionStarted = False
+    isEndOfFile = False
 
     # Reading the File and assging it to var as an array with respect to newline
     with open(QUESTION_FILE) as f:
@@ -38,7 +39,7 @@ def Questions():
                     continue
             if isOptionStarted == True:
                 
-                if "###" in QUESTION_FILE_CONTENT[i]:
+                if "###" in QUESTION_FILE_CONTENT[i] or isEndOfFile ==True:
                     question[Qno] = temp_question
                     options[Qno] = temp_options
                     temp_question = ""
@@ -48,7 +49,16 @@ def Questions():
                 else:
                     temp_options.append(QUESTION_FILE_CONTENT[i])   
         except IndexError:
-            continue
+            if "###" in QUESTION_FILE_CONTENT[i] or isEndOfFile ==True:
+                    question[Qno] = temp_question
+                    options[Qno] = temp_options
+                    temp_question = ""
+                    temp_options = []
+                    isStartOfQuestion = True
+                    continue
+            else:
+                temp_options.append(QUESTION_FILE_CONTENT[i])   
+            # continue
 
     # pprint(question)
     return question,options
@@ -84,5 +94,7 @@ def SolutionPart():
 
 if __name__ == "__main__":
     questions ,options = Questions()
+    pprint(questions)
     pprint(options)
-    SolutionPart()
+    
+    # SolutionPart()
