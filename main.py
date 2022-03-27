@@ -84,5 +84,5 @@ def SolutionPart():
 
 if __name__ == "__main__":
     questions ,options = Questions()
-    pprint(questions)
+    pprint(options)
     SolutionPart()
