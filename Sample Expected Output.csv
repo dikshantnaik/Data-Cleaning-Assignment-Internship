@@ -1,0 +1,118 @@
+Q No	NULL	Question Text	Question Type	Option 1	Option 2	Option 3	Option 4	Errors if any	Answer Key	Solution		  
+1	NULL	A position dependent force, $F=\left(7-2 x+3 x^{2}\right) \mathrm{N}$ acts on a small body of mass $2 \mathrm{~kg}$ and displaces it from $x=0$ to $x=5 \mathrm{~m}$. The work done (in joule) is	Single Correct	$70$	$270$	$35$	$135$	NULL	d	"$\int d W=\int F d x$
+$W=\int_{0}^{5}\left(7-2 x+3 x^{2}\right) d x$
+$W=135$ joule"		
+2	NULL	"A particle moves along $x$ axis given by $x=A \sin \left(\frac{\pi}{6} t\right)$.
+The ratio of distance travelled by it in $1^{\text {st }}$ second and $2^{\text {nd }}$ second is"	Single Correct	$\frac{\sqrt{2}}{\sqrt{2}-1}$	$\frac{\sqrt{3}}{\sqrt{3}-1}$	$\frac{1}{\sqrt{2}-1}$	$\frac{1}{\sqrt{3}-1}$	NULL	d	"$X=A \sin (\omega t)$
+$X_{1}=\frac{A}{2}$
+$X_{2}=A \frac{\sqrt{3}}{2}$
+Ratio $=\left(\frac{X_{1}}{X_{2}-X_{1}}\right)=\frac{1}{\sqrt{3}-1}$"		
+3	NULL	"On a table, three blocks are placed as shown in the figure. Mass of each block is $m$ and coefficient of friction for each block is $\mu$. A force $F$ is applied on the first block so as to move the system. The minimum required $F$ should be
+<img src=""images/8wonZtFFvdMWTyt6NsrOmooD24dArzLvimludYTpm2A.original.fullsize.png"">"	Single Correct	$8 \mu \mathrm{~mg}$	$9 \mu \mathrm{~mg}$	$7 \mu \mathrm{~mg}$	$5 \mu \mathrm{~mg}$	NULL	c	"<img src=""images/PEv5nk3H7UwE8N0cs34_e4UF8B928q0F2kjxhMjiNNo.original.fullsize.png""><br>
+$T_{1}=\mu \mathrm{~mg}$
+$T_{2}=3 \mu \mathrm{~mg}$
+$f-\mu \mathrm{~mg}=2(3 \mu \mathrm{~mg})$
+$f=7 \mu \mathrm{~mg}$"		
+4	NULL	"A body $A$ is dropped from a height $h$ above the ground. At the same time another body $B$ at a horizontal distance $d$ from the line of motion of $A$, from the ground is fired at an angle $\alpha$ to the horizontal. If the two collide at the highest point of the trajectory of $B$, the angle of projection is given by
+<img src=""images/w_DGGFjI0gZlka9N8bKbSLle5ViO37Krku00TPDj-Iw.original.fullsize.png"">"	Single Correct	$\alpha=\tan ^{-1}\left(\frac{d}{h}\right)$	$\alpha=\sin ^{-1}\left(\frac{h}{d}\right)$	$\alpha=\tan ^{-1}\left(\frac{h}{d}\right)$	$\alpha=\cos ^{-1}\left(\frac{h}{d}\right)$	NULL	c	"$\tan \alpha=\frac{h}{d}$
+$\alpha=\tan ^{-1}\left(\frac{h}{d}\right)$
+$\alpha=\tan ^{-1}\left(\frac{h}{d}\right)$"		
+5	NULL	"A container is accelerating with acceleration $a=g$ along the direction as shown below. Find the angle $\theta$ made by the liquid surface with the vertical wall of the container.
+<img src=""images/VNunxbfVRJSWGjFcAWXLoDkbzUS_hUtgus-cFRvdBWk.original.fullsize.png""><br>
+<img src=""images/cbsUgjHVTsmWP6MIj9FFJLOgqWqb9Hp_eoIniTDZ7AU.original.fullsize.png"">"	Single Correct	$30^{\circ}$	$45^{\circ}$	$60^{\circ}$	$90^{\circ}$	NULL	c	"$\tan \left(90^{\circ}-\theta\right)=\frac{a_{H}}{g+a_{V}}$
+$\tan \left(90^{\circ}-\theta\right)=\cot \theta=\frac{g \cos 30^{\circ}}{g+g \sin 30^{\circ}}$
+$=\frac{\sqrt{3} / 2}{1+\frac{1}{2}}=\frac{1}{\sqrt{3}}$
+$\cot \theta=\frac{1}{\sqrt{3}}$
+$\theta=60^{\circ}$"		
+6	NULL	"A soap film is formed on a triangular wire frame having two fixed and one movable side. The free side is moved with a constant acceleration ' $a$ '. Take side length to be zero at $t=0$ as shown. If the surface tension is constant and $U$ is the surface potential energy of the soap film then
+<img src=""images/tDFG7nQ2H2mKFY5G_6jHhjnTSLj52Aziyx12TEEWH6U.original.fullsize.png"">"	Single Correct	$\frac{d U}{d t} \propto t$	$\frac{d U}{d t} \propto t^{2}$	$\frac{d U}{d t} \propto t^{3}$	$\frac{d U}{d t} \propto t^{0}$	NULL	c	"$Y=\frac{1}{2} a t^{2}$
+$F=2 T Y$
+$P=F . V$
+$P=2 T \times \frac{1}{2} a t^{2} . a t$
+$P \propto t^{3}$"		
+7	NULL	"A plank of mass $m$ placed over a solid cylinder of mass $m$ and radius $R$, is pulled by a constant horizontal force $F$ as shown in figure. There is no slipping anywhere. The acceleration of plank is
+<img src=""images/cdnQw_uc8PhcUAbco88D18NvXCAT4ZzVRi4qH9fxv3M.original.fullsize.png"">"	Single Correct	$\frac{3 F}{8 m}$	$\frac{2 F}{5 m}$	$\frac{11 F}{5 m}$	$\frac{8 F}{11 m}$	NULL	d	$F \times 2 R=\left(\frac{3}{2} m R^{2}+m \times 4 R^{2}\right)\left(\frac{a}{2 R}\right) \Rightarrow a=\frac{8 F}{11 m}$		
+8	NULL	"A wire of conical shape of length $L$ and end radii $r_{1}$ and $r_{2}$ is stretched by two forces $F$ applied parallel to the length in opposite directions normal to the end faces as shown. If $Y$ denotes the Young's modulus of elasticity, then extension produced is
+<img src=""images/1hZpLCAG_UXPeMaYwtcPgOX19pXb4xTQulEFLxbbYBI.original.fullsize.png"">"	Single Correct	$\frac{F L}{\pi r_{1} r_{2} Y}$	$\frac{F L}{2 \pi r_{1} r_{2} Y}$	$\frac{F L}{\pi r_{1}^{2} Y}$	$\frac{2 F L}{\pi r_{1} r_{2} Y}$	NULL	a	$\Delta L=\frac{F L}{Y A}=\frac{F L}{Y \sqrt{A_{1} A_{2}}}=\frac{F L}{Y \sqrt{\pi r_{1}^{2} \pi r_{2}^{2}}}=\frac{F L}{Y \pi r_{1} r_{2}}$		
+9	NULL	The speed of planet at apogee in terms of eccentricity(e) is (a is semimajor axis of ellipse)	Single Correct	$\sqrt{\frac{G M}{a}\left(\frac{1-e}{1+e}\right)}$	$\sqrt{\frac{G M}{a}\left(\frac{1+e}{1-e}\right)}$	$\sqrt{\frac{2 G M}{a}\left(\frac{1-e}{1+e}\right)}$	$\sqrt{\frac{G M}{2 a}\left(\frac{1+e}{1-e}\right)}$	NULL	a	"$m v_{1} r_{1}=m v_{2} r_{2}$
+$\frac{1}{2} m v_{1}^{2}-\frac{G M m}{r_{1}}=\frac{1}{2} m v_{2}^{2}-\frac{G M m}{r_{2}}$
+$r_{1}=a(1-e)$
+$r_{2}=a(1+e)$"		
+10	NULL	An object of mass $3 \mathrm{~kg}$ is projected from a point on a horizontal plane with speed $20 \mathrm{~m} / \mathrm{s}$ at angle $60^{\circ}$ with horizontal. The object explodes at the highest point and breaks into two parts of masses $1 \mathrm{~kg}$ and $2 \mathrm{~kg}$. The fragment of mass $1 \mathrm{~kg}$ moves horizontally at speed $15 \mathrm{~m} / \mathrm{s}$ in backward direction just after explosion. The distance of centre of mass from the point of projection when the two parts hit the plane is $\left(g=10 \mathrm{~m} / \mathrm{s}^{2}\right)$	Single Correct	$20 \mathrm{~m}$	$20 \sqrt{2} \mathrm{~m}$	$20 \sqrt{3} \mathrm{~m}$	$40 \mathrm{~m}$	NULL	c	"Motion of COM does not altered by explosion.
+$x=R=\frac{(20)^{2} \times \sin \left(120^{\circ}\right)}{10}=20 \sqrt{3} \mathrm{~m}$"		
+11	NULL	"An open organ pipe of length $l$ is sounded together with another organ pipe of length $l+x$ in their respective fundamental tones (given $x<<l$ ). The beat frequency heard will be ?
+(speed of sound is $v$)"	Single Correct	$\frac{v x}{4 l^{2}}$	$\frac{v x}{2 l^{2}}$	$\frac{v l^{2}}{2 x}$	$\frac{v x^{2}}{2 l}$	NULL	b	"$l=\frac{\lambda_{1}}{2} \therefore \lambda_{1} \Rightarrow 2 l$
+$\therefore f_{1}=\frac{v}{2 I}$
+Similarly $f_{2}=\frac{v}{2 l\left(1+\frac{x}{l}\right)}=\frac{v}{2 l}\left(1-\frac{x}{l}\right)$
+$\therefore \Delta f=f_{1}-f_{2}=\frac{v}{2 l}\left(1-1+\frac{x}{l}\right)=\frac{v x}{2 l^{2}}$"		
+12	NULL	A faulty thermometer has ice point at $-5^{\circ} \mathrm{C}$ and steam point at $105^{\circ} \mathrm{C}$. What would be the temperature shown by this thermometer of human body? (Assume correct temperature of human body is $37^{\circ} \mathrm{C}$)	Single Correct	$34.8^{\circ} \mathrm{C}$	$39.3^{\circ} \mathrm{C}$	$35.7^{\circ} \mathrm{C}$	$41.5^{\circ} \mathrm{C}$	NULL	c	$\frac{t+5}{105+5}=\frac{37-0}{100-0} \Rightarrow t=35.7^{\circ} \mathrm{C}$		
+13	NULL	"Time period of oscillation of given arrangement is
+<img src=""images/RM9G2xcHhqqRFtwwqHle02q1Et9b8ZphFb7D6tCScFo.original.fullsize.png"">"	Single Correct	$2 \pi \sqrt{\frac{6 m}{k}}$	$2 \pi \sqrt{\frac{3 m}{k}}$	$2 \pi \sqrt{\frac{m}{3 k}}$	$2 \pi \sqrt{\frac{2 m}{3 k}}$	NULL	a	"$x=2 x_{1}+2 x\left(2 x_{1}\right)$
+$\therefore m \frac{d^{2} x}{d t^{2}}=-\frac{k x}{6}$
+$\Rightarrow T=2 \pi \sqrt{\frac{6 m}{k}}$"		
+14	NULL	One half mole of a monatomic ideal gas absorbs $1200 \mathrm{~J}$ of energy while performing $2196 \mathrm{~J}$ of work. The temperature of the gas changes by	Single Correct	$160^{\circ} \mathrm{C}$	$-80^{\circ} \mathrm{C}$	$40^{\circ} \mathrm{C}$	$-160^{\circ} \mathrm{C}$	NULL	d	"$\Delta Q=\Delta U+\Delta W$
+$1200 \mathrm{~J}=\Delta U+2196 \mathrm{~J}$
+$\Delta U=1200-2196=-996$
+$n C_{v} \Delta T=\Delta U$
+$\frac{1}{2} \times \frac{3}{2} \times 8.314 ~\Delta T=996(-$ ve $)$
+$\Delta T \cong-160^{\circ} \mathrm{C}$"		
+15	NULL	"A point charge $Q$ is located just outside an imaginary hemispherical surface of radius $R$ as shown in the figure given below. The electric flux passing through curved surface of the hemisphere is
+<img src=""images/5UNrl38-qVYJDTst1aHWuM4ATPbBiz4AGp2z_za0RFA.original.fullsize.png"">"	Single Correct	$\frac{Q}{2 \varepsilon_{0}}\left(1-\frac{1}{\sqrt{2}}\right)$	Zero	$\frac{-Q}{2 \varepsilon_{0}}\left(1-\frac{1}{\sqrt{2}}\right)$	$\frac{-Q}{2 \varepsilon_{0}}\left(1+\frac{1}{\sqrt{2}}\right)$	NULL	c	"<img src=""images/y9nJBpz5Z9hte3U3sOlt9S6QG2LAxdM2cn9PPvYt8Ik.original.fullsize.png""><br>
+Net electric flux through the surface is zero
+$\phi$ (Curved surface) $+\phi$ (Flat surface) $=0$
+$\phi$ Curved surface $=-\phi$ (Flat surface)
+$\phi$ (Flat surface) $=\frac{Q}{2 \varepsilon_{0}}(1-\cos \phi)=\frac{Q}{2 \varepsilon_{0}}\left(1-\frac{1}{\sqrt{2}}\right)$"		
+16	NULL	A resistance $R$ of thermal coefficient of resistivity $\alpha$ is connected in parallel with a resistor $3 R$ having thermal coefficient of resistivity $2 \alpha$. Equivalent thermal coefficient of resistivity for the combination is	Single Correct	$\frac{9 \alpha}{4}$	$\frac{3 \alpha}{2}$	$\frac{7 \alpha}{4}$	$\frac{5 \alpha}{4}$	NULL	d	"$\frac{1}{R_{\text {eq }}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}$
+$-\frac{d R}{R_{e q}^{2} d T}=-\frac{d R_{1}}{d T R_{1}^{2}}-\frac{d R_{2}}{d T R_{2}^{2}}$"		
+17	NULL	An electron is moving in a circular orbit of radius $R$ with an angular acceleration $\alpha$. At the centre of the orbit is kept a conducting loop of radius $r$,$(r<<R)$. The emf induced in the smaller loop due to the motion of the electron is	Single Correct	Zero	$\frac{\mu_{0} e r^{2}}{4 R} \alpha$	$\frac{\mu_{0} e r^{2}}{4 \pi R} \alpha$	$\frac{\mu_{0} e r^{2}}{2 \pi R} \alpha$	NULL	b	"$B=\frac{\mu_{0} e v R}{4 \pi R^{3}}$
+$B=\frac{\mu_{0} e \omega R^{2}}{4 \pi R^{3}}$
+$\phi=\frac{\mu_{0} e \omega}{4 \pi R} \times \pi r^{2}$
+$\varepsilon=\frac{-d \phi}{d t}=\frac{\mu_{0} e \alpha r^{2}}{4 R}$"		
+18	NULL	The electric field of a plane electromagnetic wave is given by $E=E_{0} \sin (k z-\omega t)[\hat{i}+\hat{j}]$. Which of the following gives the direction of the associated magnetic field?	Single Correct	$\hat{k}$	$-\hat{i}+\hat{j}$	$-\hat{i}-\hat{j}$	$\hat{i}-\hat{j}$	NULL	b	"$\vec{E} \cdot \vec{B}=0$
+$\vec{E} \times \vec{B}$ is along $\hat{k}$"		
+19	NULL	Equal current $i$ is flowing in three infinitely long wires along positive $x, y$ and $z$ directions. The magnetic field at a point $(0,0,-a)$ would be	Single Correct	$\frac{\mu_{0} i}{2 \pi a}(\hat{j}-\hat{i})$	$\frac{\mu_{0} i}{2 \pi a}(\hat{i}+\hat{j})$	$\frac{\mu_{0} i}{2 \pi a}(\hat{i}-\hat{j})$	$\frac{\mu_{0} i}{2 \pi a}(\hat{i}+\hat{j}+\hat{k})$	NULL	a	"$\vec{B}=\overrightarrow{B_{1}}+\overrightarrow{B_{2}}+\overrightarrow{B_{3}}$
+$\overrightarrow{B_{1}}=0$
+$\overrightarrow{B_{2}}=\frac{\mu_{0} i}{2 \pi a} \hat{j}$
+$\overrightarrow{B_{3}}=\frac{\mu_{0} i}{2 \pi a}(-\hat{i})$"		
+20	NULL	"The instantaneous value of current at a given instant is $1 \mathrm{~A}$ and peak value of current, is $\frac{5}{3} \mathrm{~A}$. The potential difference between $P$ and $Q$ at the same instant is
+<img src=""images/O6g3uOPj1mQGycYHh8Iug9Ls6-zwtO-Gh_J1nATAsFw.original.fullsize.png"">"	Single Correct	$\frac{25}{3} \mathrm{~V}$	$7 \mathrm{~V}$	$3 \mathrm{~V}$	$4 \mathrm{~V}$	NULL	a	"$1=\frac{5}{3} \sin (\omega t)$
+$\sin (\omega t)=\frac{3}{5}$
+$V_{P Q}=V_{R}+V_{L}$
+$=3+\frac{4 \times 4}{3}$
+$=\frac{25}{3} V$"		
+21	NULL	"A flat glass slab of thickness $6 \mathrm{~cm}$ and refractive index $1.5$ is placed in front of a plane mirror. An observer is standing behind the glass slab and looking at the mirror. The actual distance of the observer from the mirror is $40 \mathrm{~cm}$. The distance of his image from himself as seen by the observer is
+(in $\mathrm{cm}$ )"	Numerical	NULL	NULL	NULL	NULL	NULL	76	"Shift by glass slab $=6\left(1-\frac{1}{1.5}\right)=2 \mathrm{~cm}$
+Distance $=40+40-2 \times 2=76 \mathrm{~cm}$"		
+22	NULL	"An arrangement for YDSE is shown in figure. $S$ is a light source then find the position of central maxima from point $O$ on screen $B$ is $x \mathrm{~mm}$ below $\mathrm{O}$, the value of $x$ is?
+<img src=""images/miBpK31-Tua1HbyjzJeYtR8ueVXEglhSLD8aSpwp1f4.original.fullsize.png"">"	Numerical	NULL	NULL	NULL	NULL	NULL	5	"<img src=""images/zQbcgM77-mXHVwsAhyfyCwmcaOU1HnMI5n3VurnHtd4.original.fullsize.png""><br>
+$\Delta x=d \sin \alpha-d \frac{y}{D}=0$
+$\Rightarrow y=D \sin \alpha$
+$=1000 \times \frac{1}{200}=5 \mathrm{~mm}$ below"		
+23	NULL	"Light of wavelength $1800 \mathrm{~A}$ ejects photoelectrons from a plate of a metal whose work function is $2 \mathrm{~eV}$. Electrons ejected from the plate with maximum kinetic energy
+(in $\mathrm{eV}$)."	Numerical	NULL	NULL	NULL	NULL	NULL	4.88	$\mathrm{KE}_{\max }=\frac{h c}{\lambda}-\phi=\frac{1}{2} m v_{\max }^{2}$		
+24	NULL	An electron jumps from second excited state of hydrogen atom to its ground state and the photon thus emitted is incident on a photo sensitive metal plate of work function $5.1 \mathrm{~eV}$. The stopping potential for the plate would be (approximately)	Numerical	NULL	NULL	NULL	NULL	NULL	7	"$D E=12.1 \mathrm{~eV}$
+$\therefore V_{\text {stopping }}=12.1-5.1=7 \mathrm{~V}$"		
+25	NULL	Two nicol prisms $A$ and $B$ are placed in the path of a beam of unpolarised light, so that no light emerges out of $B$. In between these two, a third nicol $C$ is placed such that its principal section is at an angle of $30^{\circ}$ with that of $A$. The percentage of intensity of incident unpolarized light that emerges from $B$	Numerical	NULL	NULL	NULL	NULL	NULL	9.4	"$I_{A}=\frac{I_{0}}{2}$
+$I_{C}=\frac{I_{0}}{2} \cos 30^{\circ}=\frac{I_{0}}{2} \frac{3}{4}=\frac{3 I_{0}}{8}$
+$I_{B}=I_{C} \cos ^{2} 60^{\circ}=\frac{3 I_{0}}{8} \cos ^{2} 60^{\circ}=\frac{3}{32} I_{0}$
+$\frac{I_{B}}{I_{C}}=\frac{3}{32}=9.4 \%$"		
+26	NULL	"A radioactive material decays by two processes
+$A$ and $B$ with half lives $\frac{1}{2}$ hour and $\frac{1}{4}$ hour respectively. Assume for the first half hour, it decays only with process $A$ and the next one hour with $B$. The next half hour, it decays both with $A$ and $B$. The original number of atoms in the material is $N_{0}$, then after two hours, the number of active atoms in the material is equal to $\mathrm{N}_{0} / 2^{x} .$ The value of $x$ is?"	Numerical	NULL	NULL	NULL	NULL	NULL	8	"Initial $\frac{1}{2}$ hour $: T_{\frac{1}{2}}=\frac{1}{2} \mathrm{~h}$, After $\frac{1}{2}$ hour $\rightarrow \frac{N_{0}}{2}$
+Next $1$ hour: $T_{\frac{1}{2}}=\frac{1}{4} \mathrm{~h}$, After $1$ more hour
+$\rightarrow \frac{N_{0}}{2} \cdot \frac{1}{2^{4}}=\frac{N_{0}}{2^{5}}$
+Further $\frac{1}{2}$ hour : $T_{\frac{1}{2}}=\frac{1}{6} h$,
+After $\frac{1}{2}$ more hour $\frac{N_{0}}{2^{5}} \cdot \frac{1}{2^{3}}=\frac{N_{0}}{2^{8}}$"		
+27	NULL	"Refer to the arrangement of logic gates. For $A=0$, $B=0$ and $A=1, B=0$, the values of output $Y$ are, respectively $P$ and $Q$, The sum of $P$ and $Q$ is
+<img src=""images/6kO7TY-K45pBLVjLhP7DrWbzHj3i8X9_qATGey1S5CM.original.fullsize.png"">"	Numerical	NULL	NULL	NULL	NULL	NULL	1	"<img src=""images/47wI4erJqt-yrjuk7wN1EfZdU3y1C_-T1TL1Z14yO1U.original.fullsize.png""><br>
+Sum $=0+1=1 .$"		
+28	NULL	"The voltage drop across a forward biased diode is $0.7 \mathrm{~V}$. In the following circuit, the voltage across the $10 \mathrm{~ohm}$ resistance in series with the diode will be
+<img src=""images/rTR9Ug41ML22TRb2Hq47HCy4N3lihv8qPg2wNetg9oU.original.fullsize.png"">"	Numerical	NULL	NULL	NULL	NULL	NULL	4.65	"The Potential is calculated using the KVL rule.
+$V_{10 ~\Omega}=\frac{(10-0.7)}{2}=4.65$"		
+29	NULL	"In the circuit shown in figure ammeter and voltmeter are ideal if $E=6 \mathrm{~V}, R=15 ~\Omega$ and $r=1 ~\Omega$, then the reading of the voltmeter is (round off upto three significant figures)
+<img src=""images/EgoY6gZpbxVbLb8znyCqqc6_JDFCs_FoQiY5llZY2Kk.original.fullsize.png"">"	Numerical	NULL	NULL	NULL	NULL	NULL	1.96	"$I_{\text {total }}=\left(\frac{E}{3 R+r}\right)=\frac{3}{23} \mathrm{~A}$
+$V=I R=\frac{3}{23} \times 15$
+$=\frac{45}{23} \mathrm{~V}$
+$=1.96 \mathrm{~V}$"		
+30	NULL	The dimensions of $\varepsilon_{0} \frac{d \phi_{E}}{d t}$ is (where symbols have their usual meaning) is equal to $\left[A^{x}\right]$. The value of $x$ is	Numerical	NULL	NULL	NULL	NULL	NULL	1	"$I_{d}=\varepsilon_{0} \frac{d \phi}{d t}$
+hence dimension $[A]$
+The dimension of Ampere is $1$."		
