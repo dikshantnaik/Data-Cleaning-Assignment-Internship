@@ -1,8 +1,7 @@
-import json
+import csv
 from pprint import pprint
-import queue
-from cv2 import TermCriteria_COUNT
 import regex as re
+
 
 def Questions():
     QUESTION_FILE  = "Source/QuestionFile.txt"
@@ -91,7 +90,7 @@ def SolutionPart():
                 try:
                     TEMP_RIGHT_OPTION = re.findall("[a-d]",TEMP_RIGHT_OPTION)[0]
                 except IndexError:
-                    print("Error on Qno ",Qno)
+                
                     error[Qno] = "Right Option not Found instead found :"+TEMP_RIGHT_OPTION
                     TEMP_RIGHT_OPTION = "NULL"
                 # print(TEMP_RIGHT_OPTION)
@@ -114,7 +113,46 @@ def SolutionPart():
     # pprint(solution)
     return solution,error
 
+def WriteToExcel(questions,options,solution,error):
+    
+    with open("text.csv","w") as file:
+        writer = csv.writer(file)
+        writer.writerow(["Qno","Question Text","Option 1","Option 2","Option 3","Option 4","Error if any","Answer Key","Solution"])
+
+        questions_error = {}   
+        temp_array = []
+        # print(questions)
+        for Qno in questions:
+            temp_array.append(Qno)
+            temp_array.append(questions[Qno])
+            # temp_array.append()
+            for option in options[Qno]:
+                # print(option)
+                temp_array.append(option[3:])      
+            if options[Qno]==[]:
+                for _ in range(4):
+                    temp_array.append("NULL")
+                    questions_error[Qno] = "No Options Found"
+
+            try:
+                temp_error = questions_error[Qno]+" || "+ error[Qno] 
+                temp_array.append(temp_error)
+            except KeyError:
+                temp_array.append("NULL")
+            
+            temp_array.append(solution[Qno][0])
+            temp_array.append(solution[Qno][1])
+
+            # if Qno==2:
+            #     break
+            # print(type(temp_array[3]))
+            # print(temp_array[5])
+            writer.writerows([temp_array])
+            temp_array = []
+                
 if __name__ == "__main__":
     questions ,options = Questions()
     solution,error = SolutionPart()
-    pprint(solution)
+    WriteToExcel(questions,options,solution,error)
+    
+   
